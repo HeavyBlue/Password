@@ -18,7 +18,6 @@ def func_generator():
     cmd_cls = "cls"
     subprocess.call(cmd_cls,shell=True)
     print("PASSWORD GENERATOR \n")
-    print("Created By HeavyBlue \n")
     bnry = [1,0,1,1,0,1,0,0,1,1,1,0,1,0,0,0,1,1,0,1,0,1,0,0,1,0,1,0,1,0,1,1,1,0,1,0,0,]
     random.shuffle(bnry)
     str_bnry = "".join(str(sbn) for sbn in bnry)
